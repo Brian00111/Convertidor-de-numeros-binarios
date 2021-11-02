@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="main.js" defer></script>
+
+    <title>Bin2Dec</title>
+</head>
+<body>
+
+    <div class="container w-screen h-screen flex flex-col justify-center items-center m-auto">
+        <h1 class="text-7xl">Bin2Dec</h1>
+        <p class="italic">Binary to decimal numbers converter</p>
+
+        <form class="my-8">
+            <label for="number" class="font-bold">Enter your number (0 - 1):</label>
+            <input type="text" class="rounded-1xl border-2 outline-none" id="input">
+            <button type="submit" id="btn" class="font-bold py-2 px-8 bg-red-500 font-bold rounded-2xl ">CHECK</button>
+        </form>
+        <p id="advertensing" class="py-4 text-red-500 flex items-center"></p>
+
+        <p id="result" class="max-w-md w-3/4 p-4 text-6xl border-transparent text-center"></p>
+    </div>
+    
+</body>
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</html>
